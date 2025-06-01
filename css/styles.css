@@ -1,0 +1,171 @@
+@import url("https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&display=swap");
+
+* {
+  box-sizing: border-box;
+}
+
+:root {
+  --red-title: #8e0707;
+  --grey-bg: #eeeeee;
+}
+
+body {
+  background: var(--grey-bg);
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+#container {
+  background: white;
+  width: 800px;
+  margin: 1em auto;
+  text-align: center;
+  border: 1px ridge black;
+  padding: 1em;
+}
+
+header img {
+  margin-bottom: 1em;
+}
+
+h1,
+h2,
+h3 {
+  font-family: "Oswald", serif;
+}
+
+h2 {
+  font-size: 1.6em;
+  font-weight: 600;
+}
+
+h3 {
+  font-size: 1.3em;
+  font-weight: 500;
+  color: var(--red-title);
+}
+
+header h1 {
+  font-size: 3.15em;
+  font-weight: 600;
+  border-top: 2px solid var(--red-title);
+  border-bottom: 2px solid var(--red-title);
+  padding: 15px 0;
+  margin-bottom: 16px;
+}
+
+header h1 span {
+  background-color: black;
+  color: white;
+  font-size: 32%;
+  padding: 8px 16px;
+}
+
+#presentation,
+#liste-acteurs ul li {
+  background-color: var(--grey-bg);
+}
+
+#presentation {
+  width: 600px;
+  margin: 0 auto;
+  padding: 20px;
+  line-height: 1.3;
+}
+
+#presentation header {
+  margin: 15px 0;
+  padding-bottom: 15px;
+  border-bottom: 1px solid black;
+}
+
+#presentation h2 {
+  margin-bottom: 1.3em;
+}
+
+#presentation p {
+  text-align: left;
+  margin: 1em 0;
+}
+
+#presentation p em {
+  font-weight: 600;
+}
+
+#presentation img {
+  display: block;
+  width: 18%;
+  margin: 1.35em auto;
+}
+
+#presentation aside {
+  font-style: italic;
+  font-weight: 300;
+  font-size: 0.8em;
+  margin-bottom: 1em;
+}
+
+#liste-acteurs {
+  margin: 1em 0;
+  padding: 0 50px;
+}
+
+#liste-acteurs h2 {
+  margin: 0.7em 0;
+}
+
+#liste-acteurs li {
+  margin: 0 auto 5px auto;
+  text-transform: uppercase;
+  border-radius: 15px;
+  padding: 5px 0;
+  letter-spacing: 1px;
+  font-size: 0.85em;
+  font-weight: 200;
+}
+
+#liste-acteurs li {
+  width: 87.5%;
+}
+
+#liste-acteurs li a {
+  text-decoration: none;
+  color: var(--red-title);
+  display: inline-block;
+  width: 100%;
+}
+
+#liste-acteurs li:hover {
+  background-color: var(--red-title);
+  cursor: pointer;
+}
+
+#en-images {
+  width: 600px;
+  margin: 1em auto;
+}
+
+#en-images article {
+  width: 38.5%;
+  margin: 16px auto;
+  border: 1px solid #cccccc;
+}
+
+#en-images article img {
+  max-width: 100%;
+  padding: 1.2em 1.9em 1em 1.9em;
+}
+
+#en-images article h3 {
+  padding: 0 15px 12px 10px;
+}
+
+.flex-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+footer {
+  background-color: var(--grey-bg);
+  padding: 30px 0 80px 0;
+}
