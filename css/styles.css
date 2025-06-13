@@ -10,13 +10,13 @@
 }
 
 body {
-  background: var(--grey-bg);
+  background-color: #d3d3d3;
   font-family: Arial, Helvetica, sans-serif;
 }
 
 #container {
-  background: white;
   width: 800px;
+  background-color: white;
   margin: 1em auto;
   text-align: center;
   border: 1px ridge black;
@@ -132,11 +132,16 @@ header h1 span {
   color: var(--red-title);
   display: inline-block;
   width: 100%;
+  font-weight: bold;
 }
 
 #liste-acteurs li:hover {
   background-color: var(--red-title);
   cursor: pointer;
+}
+
+#liste-acteurs li:hover a {
+  color: white;
 }
 
 #en-images {
@@ -159,6 +164,11 @@ header h1 span {
   padding: 0 15px 12px 10px;
 }
 
+#en-images article p {
+  max-width: 100%;
+  padding: 0 10px 25px 10px;
+}
+
 .flex-container {
   display: flex;
   flex-direction: column;
@@ -169,3 +179,20 @@ footer {
   background-color: var(--grey-bg);
   padding: 30px 0 80px 0;
 }
+
+/*blockquote {
+  background: #f9f9f9;
+  border-left: 10px solid #ccc;
+  margin: 1.5em 10px;
+  padding: 0.5em 10px;
+  quotes: "\201C""\201D""\2018""\2019";
+}
+
+blockquote:before {
+  color: #ccc;
+  content: open-quote;
+  font-size: 4em;
+  line-height: 0.1em;
+  margin-right: 0.25em;
+  vertical-align: -0.4em;
+}*/
