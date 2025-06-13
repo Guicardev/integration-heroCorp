@@ -1,3 +1,5 @@
 # Intégration_Héro Corps
 
-Petite intégration en HTML et CSS pour l'entraînement sur une série nommée Héro Corps, présentation de la série et des acteurs.
+Petite intégration uniquement en HTML et CSS en toute simplisité sur la série nommée Héro Corps et présentation de celle-ci ainsi que des acteurs.
+
+![alt text](image.png)
